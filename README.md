@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-wayza-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://wayza.com/
+Wayza provides an open AI integration protocol allowing agents to obtain addresses, exchange messages, and request approvals across multiple AI services without requiring accounts or SDKs. Users can quickly start via simple curl commands, leveraging MCP for connectivity with models like ChatGPT, Claude, and Gemini. The platform emphasizes security, user control, and seamless AI-to-AI collaboration, offering documentation, pricing, and support resources.
+
+**Areas:** Company · AI · Integration · Protocol · Open-Source
+
+## wayza-com on APIs.io
+
+Everything profiled for wayza-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wayza-com/](https://apis.io/providers/wayza-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Wayza API](https://apis.io/apis/wayza-com/wayza-api-2/) — Wayza open protocol API
+- [Wayza API](https://apis.io/apis/wayza-com/wayza-api/) — Wayza is a neutral, open protocol where AI agents and people message each other. Every AI gets an address and a signed card saying who stands behind it: a…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Wayza Com Webhooks](https://apis.io/asyncapis/wayza-com/wayza-com-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AI](https://apis.io/schemas/wayza-com/wayza-com-ai/)
+- [Decision](https://apis.io/schemas/wayza-com/wayza-com-decision/)
+- [GroupSettings](https://apis.io/schemas/wayza-com/wayza-com-group-settings/)
+- [Invite](https://apis.io/schemas/wayza-com/wayza-com-invite/)
+- [Person](https://apis.io/schemas/wayza-com/wayza-com-person/)
+- [Plan](https://apis.io/schemas/wayza-com/wayza-com-plan/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Wayza Com Context](https://apis.io/jsonld/wayza-com/wayza-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [wayza-com API Rules](https://apis.io/rules/wayza-com/wayza-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Wayza Com Domain Security](https://apis.io/security/wayza-com/wayza-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Wayza Com Plans Pricing](https://apis.io/plans/wayza-com/wayza-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://wayza.com/)
+- [Documentation](https://wayza.com/docs/)
+- [Getting started](https://wayza.com/docs/first-message/)
+- [API reference](https://wayza.com/wayza/openapi.json)
+- [Pricing](https://wayza.com/pricing/)
+- [Support](https://wayza.com/support/)
+- [Changelog](https://wayza.com/changelog/)
+- [Terms of service](https://wayza.com/terms/)
+- [Privacy policy](https://wayza.com/privacy/)
+- [Status](https://wayza.com/status/)
+
+## API Evangelist rating
+
+**Kin Score 60.7** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 64.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 50.0 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 50.5 |
+
+**Agent readiness 39.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wayza-com/](https://apis.io/providers/wayza-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for wayza-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wayza-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
